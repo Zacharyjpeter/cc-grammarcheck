@@ -1,10 +1,8 @@
-<h1>Grammar Checker: Iterator and Higher Order Function Project</h1>
-<br>
+<h1>Grammar Checker: Higher Order Functions</h1>
 <h3>Description</h3>
-A simple iterator project that helped me practice higher order functions.
+A project that helped me practice higher order functions.
 <br>
 <h3>Challenges</h3>
-<br>
 <br>
 <h3>Takeaways</h3>
 <br>
