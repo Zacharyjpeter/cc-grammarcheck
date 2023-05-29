@@ -2,7 +2,7 @@
 <h3>Description</h3>
 A project that helped me practice various iterators.
 <br>
-//![Screenshot of project](cc-grammarcheck/grammarCheckPhoto.png)
+![Screenshot of project](https://raw.githubusercontent.com/Zacharyjpeter/cc-grammarcheck/main/grammarCheckPhoto.png)
 <br>
 <h3>Challenges</h3>
 Biggest challenge was lines 56-67. I needed to find the word longer than 10 characters and replace it. At first my return statement was wrong. I used "<" instead of ">". Then I had trouble replacing the word. I tried replacing it directly based on the string match. It didn't work and I later realized I could use .indexOf to get the index. Apparently you can only replace a word if you know the index not the word itself. It was an incredibly frustrating process, and then I find such a simple solution.
