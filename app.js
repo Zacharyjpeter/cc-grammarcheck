@@ -14,7 +14,8 @@ let count = 0;
 storyWords.forEach((word) => {
   return count++;
 });
-console.log(`The original word count is ${count}`);
+
+//console.log(`The original word count is ${count}`);
 
 //filters the story for the word "literally" and counts the words again
 storyWords = story.split(" ").filter((word) => {
@@ -43,7 +44,24 @@ let badWordIndex = storyWords.findIndex((word) => {
     return word;
   }
 });
-console.log(badWordIndex);
+//console.log(badWordIndex)
 storyWords[badWordIndex] = "really";
+
+//checks the story for words 10 chars or less. Returns true if function criteria is met
+let lengthCheck = storyWords.every((word) => {
+  return word <= 10;
+});
+//console.log(lengthCheck);
+
+//checks the story for the word longer than 10 chars and replaces it
+let longWord = storyWords.filter((word) => {
+  return word.length > 10;
+});
+console.log(longWord);
+
+//this was the stupidest part omg
+let longWordIndex = storyWords.indexOf("breathtaking");
+console.log(longWordIndex);
+storyWords[longWordIndex] = "stunning";
 
 console.log(storyWords.join(" "));
