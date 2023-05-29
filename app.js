@@ -57,11 +57,11 @@ let lengthCheck = storyWords.every((word) => {
 let longWord = storyWords.filter((word) => {
   return word.length > 10;
 });
-console.log(longWord);
+//console.log(longWord);
 
 //this was the stupidest part omg
 let longWordIndex = storyWords.indexOf("breathtaking");
-console.log(longWordIndex);
+//console.log(longWordIndex);
 storyWords[longWordIndex] = "stunning";
 
 console.log(storyWords.join(" "));
